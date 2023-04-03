@@ -1,0 +1,67 @@
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+.todoContainer {
+  margin-top: -10px;
+  text-align: center;
+  color: #fff;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.todoInput {
+  margin-top: 20px;
+  display: flex;
+}
+.todoInput button {
+  padding: 10px 20px;
+  background: #f886bf;
+  border-radius: 10px;
+  border: none;
+  margin-left: 10px;
+  color: #fff;
+  font-size: 22px;
+  cursor: pointer;
+}
+.todoInput input {
+  width: 500px;
+  padding: 15px 10px;
+  background: #17181f;
+  font-size: 18px;
+  border-style: solid;
+  border-width: 1px;
+  color: white;
+  border-radius: 10px;
+  border-color: white;
+  padding-left: 20px;
+  font-family: "Outfit";
+}
+
+.todooss {
+  margin-top: 20px;
+  height: 332px;
+  overflow-y: scroll;
+}
+.todooss ul div {
+  display: flex;
+  background: #20212c;
+  padding: 16px;
+  margin-top: 10px;
+  list-style: none;
+  border-radius: 10px;
+  text-align: initial;
+  padding-left: 40px;
+  border: 1px solid;
+  border-color: #f886bf;
+}
+.todooss ul div i {
+  text-align: right;
+  flex: 1;
+  font-size: 22px;
+  cursor: pointer;
+}
